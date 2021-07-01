@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html class="">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="referrer" content="origin" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=0">
+
+        <title>Amazon Drive</title>
+
+        <link rel="icon" sizes="16x16 32x32 72x72 144x144" href="https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/photos/webapp/favicon2.ico">
+
+<link href='https://duretogglc1iq.cloudfront.net/main-0b7c540532f15cd3c25156673a4d9490.css' rel='stylesheet'/>
+<meta property='fb:app_id' content="164734381262" />
+
+<meta property='og:title' content="check_mem.pl" />
+
+
+            <meta name="robots" content="noindex">
+
+        <base href="/clouddrive"/>
+    </head>
+
+    <body>
+
+        <div id="files-app"><div class="loading"></div></div>
+
+<script>
+        window.ue_url = "/clouddrive/uedata/nvp/unsticky/000-0000000-0000000/CloudDrive/ntpoffrw";
+    if(window.ue) {
+        window.ue.url =  window.ue_url;
+    }
+
+    window.AppConfig = {
+        baseUri: "/clouddrive",
+            routes: {"/clouddrive/shared":{"pageType":"LotusWeb","subPageType":"SharedList","viewName":"SharedList","pageContext":"SharedList","featureFlag":"shared"},"/clouddrive/folder/:folderId/:nodeId":{"pageType":"LotusWeb","subPageType":"FolderGallery","viewName":"FolderGallery","pageContext":"GalleryView","featureFlag":"folder"},"/clouddrive/folder/:folderId":{"pageType":"LotusWeb","subPageType":"FolderView","viewName":"FolderView","pageContext":"FolderView","featureFlag":"folder"},"/clouddrive/trash":{"pageType":"LotusWeb","subPageType":"TrashView","viewName":"TrashView","pageContext":"TrashView","featureFlag":"trash"},"/clouddrive/404":{"pageType":"LotusWeb","subPageType":"404","viewName":"404","pageContext":"404"},"/clouddrive/share/:shareId/folder/:folderId":{"pageType":"LotusWeb","subPageType":"ShareLandingFolder","viewName":"ShareLandingFolder","pageContext":"ShareLandingFolder","featureFlag":"share"},"/clouddrive/recent/:nodeId":{"pageType":"LotusWeb","subPageType":"RecentGallery","viewName":"RecentGallery","pageContext":"GalleryView","featureFlag":"recent"},"/clouddrive/share/:shareId/:nodeId":{"pageType":"LotusWeb","subPageType":"ShareLandingGallery","viewName":"ShareLandingGallery","pageContext":"GalleryView","featureFlag":"share"},"/clouddrive/search/:searchText/:nodeId":{"pageType":"LotusWeb","subPageType":"SearchGallery","viewName":"SearchGallery","pageContext":"GalleryView","featureFlag":"search"},"/clouddrive/all":{"pageType":"LotusWeb","subPageType":"FolderView","viewName":"FolderView","pageContext":"FolderView","featureFlag":"folder"},"/clouddrive/share/:shareId/album/:albumId":{"pageType":"LotusWeb","subPageType":"ShareLandingAlbum","viewName":"ShareLandingAlbum","pageContext":"ShareLandingAlbum","featureFlag":"share"},"/clouddrive/share/:shareId/folder/:folderId/:nodeId":{"pageType":"LotusWeb","subPageType":"ShareLandingFolderGallery","viewName":"ShareLandingFolderGallery","pageContext":"GalleryView","featureFlag":"share"},"/clouddrive/share/:shareId":{"pageType":"LotusWeb","subPageType":"ShareLanding","viewName":"ShareLanding","pageContext":"ShareLanding","featureFlag":"share"},"/clouddrive/search/:searchText":{"pageType":"LotusWeb","subPageType":"SearchView","viewName":"SearchView","pageContext":"SearchView","featureFlag":"search"},"/clouddrive/recent":{"pageType":"LotusWeb","subPageType":"RecentView","viewName":"RecentView","pageContext":"RecentView","featureFlag":"recent"},"/clouddrive":{"pageType":"LotusWeb","subPageType":"FolderView","viewName":"FolderView","pageContext":"FolderView","featureFlag":"folder"},"/clouddrive/share/:shareId/album/:albumId/:nodeId":{"pageType":"LotusWeb","subPageType":"ShareLandingAlbumGallery","viewName":"ShareLandingAlbumGallery","pageContext":"GalleryView","featureFlag":"share"}},
+            device: {"isFirefox":false,"isLinux":true,"os":"Linux","isKindle":false,"isDesktop":false,"isTablet":false,"fullUAString":"Wget%2F1.17.1+%28linux-gnu%29","isIPad":false,"isIE":false,"isMac":false,"isWindows":false,"isMobile":false,"isAndroid":false,"isIPhone":false,"isIOS":false,"IEVersion":-1},
+            endpoints: {"cloudDriveServiceEndpoint":"/drive/v1/","cloudDriveProxyEndpoint":"https://content-na.drive.amazonaws.com/cdproxy/drive/v1/","oneLensServiceEndpoint":"/photos/api/","photosServiceEndpoint":"https://cdws.us-east-1.amazonaws.com"},
+            externalLinks: {"reportFormLink":"http://adrive-downloads.s3.amazonaws.com/US%20Copyright%20Complaint.pdf","allAppsPage":"/clouddrive/apps","chromeLink":"https://www.google.com/chrome/browser/","touLink":"/cd/tou?","macAppLink":"https://d29x207vrinatv.cloudfront.net/mac/AmazonPhotosInstaller.dmg","appDownloadAndroid":"/clouddrive/app-download/device/android/ref=cd_ph_ard","appDownloadiOS":"/clouddrive/app-download/device/ios/ref=cd_ph_ios","primeSignupLink":"/clouddrive/getprime","windowsAppLink":"https://d29x207vrinatv.cloudfront.net/win/AmazonPhotosSetup.exe","primePhotos":"/photos/","sendFeedbackForm":"https://digprjsurvey.amazon.com/api/feedbacks/CloudDrive/SendFeedbackForm"},
+            subscriptionData: {},
+            customerPreferences: {},
+            marketplaceSettings: {"primeOn":true,"hasPaidPlans":true,"smsAvailable":true},
+            sessionData: {"marketplaceId":"ATVPDKIKX0DER","customerFullName":"","country":"US","requestId":"RZNMYAD5C64NY8NMF8HY","customerEmail":"","internalRequest":false,"sessionId":"000-0000000-0000000","customerName":""},
+            strings: {"cloud-drive-onboarding-para-after-msg":"Follow the link in the message to download the mobile app. Then, sign in with your Amazon account to start uploading, sharing, and enjoying your photos.","cloud-drive-type-folder-name":"Type folder name","amazon-photos-video-exceeds-size-body":"Amazon Photos supports playback for videos up to 2 GB in size","cloud-drive-select-folder-upload":"Select a location for your files","cloud-drive-rename-nameExistsFail-desc":"An item with this name already exists.","cloud-drive-files-search-return":"Back to \"%1$s\"","amazon-photos-share-get-link":"Get share link","amazon-photos-link-copy":"Copy","amazon-photos-video-exceeds-length-body":"Playback is supported for videos up to 20 minutes in length.","adrive-recent-files":"Recent Files","amazon-photos-share-link-disclaimer-single":"This link will allow others to view, download, and comment. You can disable this link anytime in %1$s.","cloud-drive-files-create-folder":"Create","adrive-moving-files-plural":"Moving %1$n files","adrive-twitter-share-continue":"Continue on Twitter","amazon-photos-uploader-uploading-queue-single":"%1$s - %2$d item","amazon-photos-conflict-top-message":"This item is already saved in Amazon Photos.","adrive-intro-get-apps-body-2":"Get the apps now","cloud-photos-name-shared-photo-with-you":"%1$s shared a photo with you","adrive-intro-done":"Got it!","amazon-photos-select-all":"Select all","amazon-photos-uploader-in-progress":"Leaving this page will cancel your upload.","adrive-download-folder":"Download","cloud-drive-onboarding-para-welcome":"We're here to keep your photos and files easy to access and enjoy, even as your digital collection grows. To get the most out of your plan, we'll walk you through the setup process for the apps that will keep you connected wherever you are.","amazon-photos-delete-success-plural":"%1$d items moved to Trash","amazon-photos-live-photo-processing-header":"Live Photo still processing","amazon-photos-select-all-error-single":"There was an error selecting the item. Please try again.","cloud-drive-upload-folder-empty":"No files to upload.","amazon-photos-share-copy-link":"Copy the link below to share","adrive-intro-skip":"Skip intro","amazon-photos-share-facebook":"Facebook","amazon-photos-trash-deleting-plural":"Permanently deleting %1$d items","cloud-drive-open-in-folder":"Open in folder","amazon-photos-uploader-uploading-queue-plural":"%1$s - %2$d of %3$d items...","cloud-photos-sort-photos":"Sort","amazon-photos-information":"Information","adrive-photos-ios":"iOS","amazon-photos-successful-copy-to-clipboard":"Link copied to clipboard","cloud-drive-move-files-success-single":"1 item moved to %2$s.","amazon-photos-uploader-error-over-quota-non-prime-amazon-prime-2":"Prime membership","adrive-unshare-fail-single":"Unable to stop sharing %1$n item","amazon-photos-report-abuse-select-type":"--Select an option--","cloud-drive-conflict-action-title-file":"What do you want to do with the new file?","adrive-photos-select":"Select","cloud-drive-upload":"Upload","adrive-bill-vendor-sprint":"Sprint","cloud-drive-video-not-ready":"This video is not ready for streaming. Please try again later.","cloud-drive-shared-amazon-drive-customer":"This content was shared with you by an Amazon Drive customer.","amazon-photos-delete-success-single":"1 item moved to Trash","amazon-photos-select-all-success-single":"%1$d item selected","unified-nav-prime-photos":"Amazon Photos","amazon-photos-uploader-error-over-quota-unlimited":"Upgrade your Amazon Drive storage plan\n","amazon-photos-trash-restore-fail-single":"Unable to restore deleted item. Please try again.","amazon-photos-share-collection-name-single":"%1$s","cloud-drive-onboarding-msg-notification":"A text has been sent to","cloud-drive-create-folder-parent":"Add folder to %1$s","cloud-drive-deleted":"Trash","amazon-photos-uploader-error-list-file-type-invalid":"File type is invalid","amazon-photos-share-heading":"Share","amazon-photos-uploader-error-no-subscription":"No current subscription","adrive-default-empty-heading":"Drag and drop files here","amazon-photos-share-link-disclaimer-shared-files":"Shared Items","amazon-photos-uploader-error-over-quota-non-prime-amazon-prime":"Amazon Prime","amazon-photos-download-starting":"Download starting, please wait...","amazon-photos-uploader-error-folder-support-option-desktop":"To upload folders, get the %1$s","cloud-drive-session-expired":"You are no longer signed in. To continue, you'll need to sign in again.","adrive-bill-vendor-billbridge":"billbridge","amazon-photos-cancel":"Cancel","amazon-photos-download":"Download","amazon-photos-trash-view-trash":"See Trash","amazon-photos-select-all-error-plural":"There was an error selecting the items. Please try again.","unified-nav-photos":"Photos & Videos","cloud-drive-file-not-found-shared":"This shared content is unavailable or has been removed by its owner.","adrive-move-file-empty":"No folders to display","amazon-photos-delete-fail":"Unable to move selection to Trash. Please try again.","amazon-photos-uploader-dialog-cancel":"Cancel upload?","cloud-drive-files-column-modified":"Date Modified","adrive-intro-get-apps-body":"Your content can go wherever you go.","cloud-drive-onboarding-header-complete":"You're All Set","adriveui-ycd":"Your Amazon Drive","adrive-uploader-error-over-quota-non-prime-message-2":"%1$s to store more photos, videos, and files. Add unlimited storage for your photos by signing up for a %2$s.","cloud-drive-files-rename":"Rename","amazon-photos-share-email":"Email","amazon-photos-facebook-share-continue":"Continue on Facebook","amazon-photos-uploader-available-for-mac":"Mac","amazon-photos-conflict-choice-replace":"Save","cloud-drive-onboarding-para-complete":"Now that you have the desktop and mobile apps, you can upload, explore, and share your photos and files from any of your devices.","amazon-photos-download-ios-not-share-landing-msg":"Your device doesn't support %1$s downloads via browser. Use the %2$s app, instead.","amazon-photos-uploader-error-list-over-quota":"Over quota, skipped","cloud-drive-onboarding-skip":"Skip","adrive-upload-menu-drag-notice":"Or, drag & drop files anywhere on this page","amazon-photos-uploader-aborted":"Upload canceled","adrive-customer-greeting":"Hello, %1$s","cloud-drive-conflict-forall":"Do this for all conflicts","amazon-photos-error-fatal-header":"Something went wrong","cloud-drive-upload-v2-nameExistsFail-desc":"An item with this name already exists.","amazon-photos-deselect-all":"Deselect all","amazon-photos-download-ios-app-name":"Amazon Photos","amazon-photos-delete-trash-selection":"Permanently Delete","amazon-photos-report-abuse-copyright-info":"Amazon.com respects the intellectual property rights of others and expects its users to do the same. If you believe that your work has been copied in a way that constitutes a copyright infringement, please click on the \"Download Form\" button to download the copyright complaint form. Follow the instructions on the form to submit your complaint.","cloud-photos-search-label":"Search","amazon-photos-uploader-error-over-quota-non-prime-unlimited":"Amazon Drive storage plan\n","amazon-photos-download-ios-multiple-photos":"multiple photo","amazon-photos-report-abuse-copyright":"Copyright Violation","amazon-photos-web-video-play-failed-header":"Unable to play this video","cloud-drive-files-download-limit-explanation":"You can download up to 5 GB or 1,000 files at a time. Please select fewer items or use the desktop app to download more files.","cloud-drive-add-to-current-folder":"Add to %1$s","cloud-drive-get-the-apps":"Get the Apps","amazon-photos-share-collection-name-plural":"%1$s +%2$d more","amazon-photos-trash-delete-confirm-head":"Permanently delete?","adrive-photos-android":"Android","adrive-move-files-fail-plural":"Unable to move %1$n files","cloud-drive-onboarding-btn-done":"Done","amazon-photos-uploader-error-no-subscription-message-nonprime":"Since your subscription expired or your storage is full, you can't upload new photos or videos.","amazon-photos-discard-selection-body":"Navigating away will discard your current selection.","amazon-photos-feedback-header":"How can we help?","cloud-drive-trash-confirm-line1":"Removed from Amazon Photos, albums, and Amazon Drive","cloud-drive-trash-confirm-line2":"Permanently deleted after 30 days","amazon-photos-uploader-items-failed-single":"%1$d item failed to upload","cloud-drive-trash-confirm-line3":"Removed from external drives that sync to Amazon Drive","adrive-manage-storage":"Manage Storage","amazon-photos-download-ios-share-landing-msg":"Your device doesn't support %1$s downloads via browser. Please use a desktop browser to download this content.","cloud-drive-onboarding-btn-send":"Send","cloud-drive-conflict-title-file":"The destination already has a file named:","adrive-unsharing-plural":"Removing %1$n shares","amazon-photos-trash-delete-confirm":"Items you delete from Trash will be removed from Amazon Photos and Amazon Drive","cloud-files-sharing-email-shared-multiple-item-message":"%1$s shared %2$s items with you","cloud-drive-btn-done":"Done","cloud-photos-view-it-here":"View it here:","amazon-photos-report-abuse":"Report abusive content","amazon-photos-uploader-items-failed-plural":"%1$d items failed to upload","amazon-photos-confirm":"Confirm","amazon-photos-uploader-error-folder-support-option-files":"Drag over the files in your folder","cloud-drive-trash-confirm":"Deleted items are","cloud-drive-files-column-file-extension":"File Extension","cloud-drive-move-to-folder":"Move to %1$s","cloud-drive-upload-title-progress-text-single":"Uploading %1$d of %2$d items...","cloud-drive-files-column-name":"File Name","amazon-photos-share-service-error":"Something went wrong. Please try again later.","clouddrive-prime-photos-dialog-yes":"Go to Amazon Photos","adrive-unshare-fail-plural":"Unable to stop sharing %1$n items","adrive-unified-nav-help-and-legal":"Help and Legal","adrive-recent-bucket-last-week":"Last Week","amazon-photos-uploader-items-uploaded-single":"%1$d item uploaded","adrive-move-files-fail-single":"Unable to move %1$n file","adrive-open-folder":"Open","cloud-drive-onboarding-header-welcome":"Welcome to Amazon Drive","adrive-intro-next":"Next","cloud-drive-items-single":"%1$d Item","amazon-photos-trash-delete-success-single":"%1$d item permanently deleted","cloud-drive-unshare-files-success-single":"Stopped sharing 1 item.","clouddrive-prime-photos-dialog-message":"We\u2019ve upgraded our photos experience to make it easier than ever to view, find, and share your photos.","amazon-photos-report-abuse-cancel":"Cancel","cloud-drive-invalid-rename":"Name contains invalid characters.","amazon-photos-trash-restore-fail-plural":"Unable to restore %1$d deleted items. Please try again.","cloud-drive-files-try-again":"Please try again.","cloud-photos-twitter":"Twitter","amazon-photos-trash":"Move to trash","cloud-photos-name-shared-video-with-you":"%1$s shared a video with you","adrive-moving-files-single":"Moving %1$n file","cloud-drive-onboarding-back-desktop":"Desktop App","amazon-photos-video-exceeds-size-header":"Video is too large for playback","cloud-drive-files-empty-folder":"This folder is empty","adrive-recent-bucket-today":"Today","cloud-drive-files-delete":"Delete","adrive-apps-available":"Amazon Drive is available for %1$s, %2$s, and %3$s","adrive-unsharing-single":"Removing %1$n share","cloud-photos-aol-mail":"AOL mail","adriveui-feedback":"Send us feedback","amazon-photos-uploader-error-folder-support-option-chrome":"Use %1$s to upload folders","amazon-photos-error":"Error","cloud-drive-upload-select-files":"Files","amazon-photos-trash-deleting-single":"Permanently deleting %1$d item","cloud-photos-yahoo":"Yahoo","cloud-drive-files-move-protected-folder-content-title":"Move this item?","amazon-photos-ok":"OK","amazon-photos-go-back-link":"Back","cloud-drive-onboarding-para-download":"The desktop app is the quickest way to upload large files or multiple items at once. Install the app and sign in with your Amazon login to start uploading. You'll be able to view and share your photos online and on your phone.","amazon-photos-live-text":"Play live photo","amazon-photos-trash-restore-success-plural":"%1$d items restored","amazon-photos-uploader-available-for-windows":"Windows","amazon-photos-web-video-play-failed-message":"A connection error has occurred while downloading this video","amazon-photos-uploader-error-permission-denied":"Permission denied","amazon-photos-trash-delete-success-plural":"%1$d items permanently deleted","cloud-drive-document-too-large":"Amazon Drive supports viewing documents up to 40MB in size. Your document is %1$s.","cloud-drive-onboarding-btn-next":"Next","cloud-drive-upload-title-progress-text-plural":"Uploading %1$d of %2$d items...","adrive_website_photos_over_quota_existing_customer_no_trial":"Your storage is over quota. New storage plans are available. Subscribe now.","adrive-unified-nav-account-settings":"Account Settings","cloud-drive-items-plural":"%1$d Items","amazon-photos-trash-delete-fail-plural":"Unable to delete items. Please try again.","cloud-drive-files-create-folder-success":"Folder created successfully","cloud-drive-files-label":"Files","amazon-photos-video-processing-body":"Your video is safely backed up, but is not yet ready for playback on the Web.  Please try again later.","amazon-photos-report-abuse-submit":"Send report","cloud-drive-cannot-share-media":"Sorry. Audio files cannot be shared.","amazon-photos-uploader-uploading":"Uploading","cloud-drive-onboarding-para-send-msg":"Download the mobile app to access your photos from anywhere you are. View and share photos you've already uploaded, auto-save photos from your phone, and more.","cloud-drive-files-move-protected-folder-content-details":"This item will also be removed from your external drive.","cloud-drive-onboarding-header-welcome-photo":"Welcome To Amazon Drive","amazon-photos-report-abuse-success":"This issue has been reported.","cloud-drive-onboarding-back-mobile":"Mobile App","cloud-drive-files-column-added":"Date Added","adrive-uploader-error-over-quota-non-prime-message":"Since your subscription expired or your storage is full, you can't upload new photos or videos. To continue uploading, sign up for %1$s or %2$s.","cloud-drive-onboarding-btn-finish":"Finish","amazon-photos-share-dialog-email-client":"Open email client","cloud-drive-onboarding-retry-click":"click here to retry","amazon-photos-live-button":"Live","amazon-photos-uploader-error-no-subscription-message-2-nonprime":"To continue uploading to Amazon Photos, sign up for %1$s or %2$s.","adrive-bill-vendor-link":"See your bill at %1$s","cloud-drive-onboarding-header-welcome-prime-photo":"Welcome to Amazon Photos","amazon-photos-uploader-error-list-file-exceeds-quota-non-prime":"Out of storage","amazon-photos-open-in-photos":"Go to Amazon Photos","amazon-photos-everything-plan":"Amazon Drive Storage\n","amazon-photos-conflict-message":"Save another copy of it?","amazon-photos-report-abuse-details":"Details:","amazon-photos-uploader-error-folder-support-desktop-uploader":"desktop app","amazon-photos-trash-delete-confirm-button":"Delete","amazon-photos-uploader-error-over-quota-upgrade":"Upgrade your plan","amazon-photos-view-item":"View","amazon-photos-trash-restoring-plural":"Restoring %1$d deleted items","amazon-photos-uploader-error-folder-upload-unsupported":"This browser does not support folder upload","amazon-photos-download-ios-toast-title":"Oops","cloud-drive-onboarding-header-download-win":"Downloading Amazon Drive for Windows","cloud-drive-trash-auto-purge-notice":"Items moved to Trash are permanently deleted after 30 days. You can restore these items to your account any time before that.","adrive-recent-bucket-this-week":"Earlier This Week","amazon-photos-download-ios-video":"video","cloud-photos-hotmail":"Hotmail","cloud-drive-pdf-viewer-required-message":"Please enable your browser's PDF viewer, or install a PDF viewer","cloud-drive-create-new-folder":"Create new folder","clouddrive-prime-photos-dialog-no":"Back to Amazon Drive","cloud-drive-onboarding-header-after-msg":"You're Almost Done","cloud-drive-files-column-size":"Size","adrive-share-additional-items-count":"%1$n more","amazon-photos-uploader-error-no-subscription-prime-signup":"Prime","cloud-drive-unshare-files-success-plural":"Stopped sharing %1$d items.","amazon-photos-uploader-items-uploaded-plural":"%1$d items uploaded ","cloud-drive-conflict-choice-skip":"Skip","cloud-drive-onboarding-btn-started":"Get Started","amazon-photos-trash-restoring-single":"Restoring deleted item","amazon-photos-uploader-error-over-quota-non-prime":"Unable to upload","adrive-recent-bucket-older":"Older","adrive-apps-available-windows-mac":"Windows and Mac","amazon-photos-conflict-for-all":"Do this every time","amazon-photos-uploader-error-list-file-size":"File is too large","cloud-drive-files-search-placeholder":"Search your Amazon Drive","adrive-create-folder-fail":"Something went wrong creating your folder. Please try again.","amazon-photos-uploader-dialog-no-cancel":"No, don't cancel","amazon-photos-select-range-limit-body":"Selection is limited to %1$d items.","amazon-photos-uploader-error-list-file-name-invalid":"File name is invalid","amazon-photos-generic-service-error":"Something went wrong. Please try again later.","amazon-photos-trash-restore-success-single":"1 item restored","cloud-drive-conflict-choice-keep":"Keep Both","cloud-drive-files-shared":"Shared","adrive-bill-vendor-con-edison":"Con Edison","cloud-drive-upload-select-folders":"A folder","amazon-photos-uploader-error-over-quota-upgrade2":"upgrade your plan","cloud-drive-onboarding-para-before-msg":"By entering your mobile number, you consent to receive an automated SMS text message from Amazon with an app download link. Message and data rates apply.","amazon-photos-uploader-complete":"Upload complete","amazon-photos-uploader-error-over-quota-message":"%1$s to store more videos and files. Your photo storage is unlimited, so photo uploads will continue.\n","cloud-photos-name-shared-file-with-you":"%1$s has shared a file with you","amazon-photos-select-all-success-plural":"%1$d items selected","amazon-photos-uploader-available-for":"Upload all the photos on your computer with apps for %1$s and %2$s.","cloud-photos-outlook-web":"Outlook web","adriveui-signout":"Sign Out","amazon-photos-deleting-single":"Moving 1 item to Trash","amazon-photos-restore-trash-selection":"Restore","cloud-drive-upload-queue-maxed":"You may have up to %1$d files in the queue. Please wait for some files to finish uploading before adding more.","cloud-photos-gmail":"Gmail","cloud-drive-search":"Search results for \"%1$s\"","cloud-drive-unshare-confirm":"Stop Sharing?","amazon-photos-share-link":"Share","cloud-drive-files-unshare":"Stop Sharing","cloud-photos-info":"Info","adrive-bill-vendor-test":"Test Vendor","adrive-unified-nav-prints-order-history":"Prints Order History","cloud-photos-default":"Desktop Email","adriveui-allfiles":"All Files","amazon-photos-conflict-operation-title-upload":"Already in Amazon Photos","amazon-photos-video-exceeds-length-header":"Video is too long for playback","cloud-photos-name-shared-folder-with-you":"%1$s has shared a folder with you","amazon-photos-report-abuse-select-type-heading":"My concern is:","amazon-photos-report-abuse-indecent":"Indecent Material/Pornography","cloud-drive-files-move":"Move","cloud-drive-conflict-choice-replace":"Replace","amazon-photos-report-abuse-other":"Other Concern","adrive-intro-uploader-heading":"New!","amazon-photos-select-all-in-progress-single":"Loading %1$d item.","cloud-drive-upload-fail-folder":"The folder %1$s was not uploaded.","amazon-photos-report-abuse-email":"My email:","cloud-photos-number-of-items-selected-plural":"%1$d items selected","cloud-drive-loading-failed-message":"Something went wrong, and we can\u2019t load your file for preview.","cloud-drive-onboarding-btn-resend":"Send Another","cloud-photos-all":"All","clouddrive-prime-photos-dialog-title":"A whole new way to see your photos","adrive-overview-loading":"Loading...","amazon-photos-trash-delete-fail-single":"Unable to delete item. Please try again.","adrive-default-mobile-empty-heading":"Add content here","cloud-drive-not-found":"Not Found","cloud-drive-onboarding-phone-placeholder":"Your Phone Number","cloud-drive-files-column-deleted":"Date Deleted","amazon-photos-video-processing-header":"Video still processing","cd_email_error_msg":"We're sorry, the message was not delivered.","cloud-drive-onboarding-header-welcome-everything":"Welcome to Amazon Drive","amazon-photos-share-link-disclaimer-plural":"This link will allow others to view, download, and comment. You can disable this link anytime in %1$s.","amazon-photos-uploader-error-folder-support-google-chrome":"Google Chrome","amazon-photos-uploader-error-over-quota":"%1$d video and file storage is full","cloud-drive-file-not-found-suggestion":"Please verify the URL or contact the owner.","amazon-photos-uploader-complete-with-errors":"Upload complete, with errors","cloud-drive-onboarding-retry":"If it hasn't started,","amazon-photos-select-all-in-progress-plural":"Loading %1$d items.","amazon-photos-uploader-dialog-message":"You will lose all unfinished progress by canceling this action.","amazon-photos-deleting-plural":"Moving %1$d items to Trash","amazon-photos-share-url":"Link","cloud-drive-files-column-sort-by":"Sort by","adriveui-confirm-unshare-dialog":"If you stop sharing these items, they will no longer be available to people who have their shared links.","adrive-intro-uploader-body":"To upload, click the blue button, or just drag and drop anywhere on this window.","amazon-photos-uploader-dialog-yes-cancel":"Yes, cancel","cloud-drive-document-still-processing":"This document is being prepared for viewing.","cloud-drive-over-quota-message-not-prime":"Your storage is full.","cloud-drive-files-cancel":"Cancel","cloud-drive-onboarding-skip-setup":"Skip setup","amazon-photos-live-photo-processing-body":"Your Live Photo is safely backed up, but is not yet ready for playback on the Web.  Please try again later.","cloud-photos-number-of-items-selected-single":"%1$d item selected","cloud-photos-disable-popup-blocker-message":"Please disable your popup blocker and try again.","adrive-report-abuse-header":"If you believe someone has violated the law or Amazon Drive's Terms of Use by sharing this file, please let us know.\n        ","amazon-photos-uploader-error-list-generic":"Failed to upload","cloud-drive-files-no-search-result":"No results found for:","cloud-drive-files-get-url":"Get Link","cloud-drive-conflict-operation-title-move":"Move file name conflict","cloud-drive-move-files-success-plural":"%1$d items moved to %2$s.","cloud-drive-onboarding-header-send-msg":"Amazon Drive On The Go","cloud-drive-onboarding-header-download-mac":"Downloading Amazon Drive for Mac","amazon-photos-report-abuse-download-form":"Download form","amazon-photos-discard-selection-title":"Discard selection?","adriveui-signin":"Sign in","cloud-drive-files-trash-empty":"Trash is empty","cloud-drive-conflict-operation-title-upload":"Upload file name conflict"},
+            locales: {},
+            authportalUrl: "",
+            aztecAccessUrl: "",
+        runtime: {
+            shareMode: true,
+        }
+    };
+
+    AppConfig.features = {
+        onboarding: !true && !AppConfig.customerPreferences.seenOnboarding,
+        photosPopup: AppConfig.customerPreferences.eligibleForPhotosPopup && (!true && !AppConfig.customerPreferences.seenOrchidPhotos),
+        sms: AppConfig.marketplaceSettings.smsAvailable,
+        primePhotos: AppConfig.customerPreferences.canAccessPrimePhotos,
+        'auth-cookie': !true,
+        'use-templinks': false,
+        'prints': true,
+        'email-share': true,
+        'amazon-email-share': false,
+        'app-introduction': true,
+        'live-photos': true,
+        'callAztecService': true,
+        'snapfish-heif-heic-support': true,
+        'access-token-full-retry': true,
+        'open-in-photos': true
+    };
+
+    window.filesBootstrap = {
+        applicationTarget: document.getElementById('files-app'),
+
+        Strings: AppConfig.strings,
+        Runtime: AppConfig.runtime,
+
+        User: {
+            requestId: AppConfig.sessionData.requestId,
+            customerId: AppConfig.sessionData.customerId,
+            sessionId: AppConfig.sessionData.sessionId,
+            marketplaceId: AppConfig.sessionData.marketplaceId,
+            language: AppConfig.customerPreferences.customerLanguage,
+            country: '', // TODO: seems unused, remove?
+            customerName : AppConfig.sessionData.customerName,
+            customerFullName : AppConfig.sessionData.customerFullName,
+            customerEmail: AppConfig.sessionData.customerEmail,
+            cdsProfileName: AppConfig.customerPreferences.cdsProfileName,
+            cdsAvatarId: AppConfig.customerPreferences.cdsAvatarId,
+            preferredEmailClient: AppConfig.customerPreferences.preferredEmailClient,
+
+            primeOn : AppConfig.marketplaceSettings.primeOn,
+            hasPaidPlans : AppConfig.marketplaceSettings.hasPaidPlans,
+            seenNearQuotaPopup : AppConfig.customerPreferences.seenNearQuotaPopup,
+            seenOverQuotaPopup : AppConfig.customerPreferences.seenOverQuotaPopup,
+            accountNearQuota : AppConfig.subscriptionData.accountNearQuota,
+            accountOverQuota : AppConfig.subscriptionData.accountOverQuota,
+            availableQuota : AppConfig.subscriptionData.availableQuota,
+            totalQuota : AppConfig.subscriptionData.totalQuota,
+            hasUnlimitedPhotos : AppConfig.subscriptionData.hasUnlimitedPhotos,
+            hasPrimeBenefit : AppConfig.subscriptionData.hasPrimeBenefit,
+            hasSubscriptions : AppConfig.subscriptionData.hasSubscriptions,
+            hasGrants : AppConfig.subscriptionData.hasGrants,
+            hasPhotosOrVideosContent : AppConfig.subscriptionData.hasPhotosOrVideosContent,
+
+            adriveSubscription : AppConfig.subscriptionData.adriveSubscription,
+            adrivePlanId : AppConfig.subscriptionData.adrivePlanId,
+            cdsSubscription : AppConfig.subscriptionData.cdsSubscription,
+            cdsPlanId : AppConfig.subscriptionData.cdsPlanId,
+
+            contractEndDate : AppConfig.subscriptionData.contractEndDate,
+            isAutoRenewEnabled : AppConfig.subscriptionData.isAutoRenewEnabled,
+            isEligibleForTrial : AppConfig.subscriptionData.isEligibleForTrial,
+
+            preferredEmailClient : AppConfig.customerPreferences.preferredEmailClient,
+
+            lastFeatureIntro : AppConfig.customerPreferences.lastFeatureIntro
+        },
+
+        Features: AppConfig.features,
+
+        Config: {
+            device: AppConfig.device,
+            client: {
+                clientId: "A13OC8GEYCGB02",
+                clientName: "AmazonDrive",
+                build: "1.0",
+                devicePlatform: AppConfig.device.os,
+                deviceSerial: AppConfig.sessionData.UBID
+            },
+            locales: AppConfig.locales,
+            routeConfig: AppConfig.routes,
+            disableSharing: {
+                    contentTypes: [],
+                    dataTypes: []
+            },
+
+            metrics: {
+                forester: {
+                    API_VERSION     : '1',
+                    CHANNEL_ID      : 'clouddrive-photos',
+                    CHANNEL_VERSION : '1',
+                    EMPTY_ACTION    : 'OE',
+                    IMAGE_ACTION    : 'OP',
+                    TEXT_ACTION     : 'TOP'
+                },
+                csmRequestEndpoint: '/clouddrive/utils/csmrequest?mgh=1'
+            },
+
+            urls : {
+                baseAppUrl        : AppConfig.baseUri,
+                amazon_homepage   : "/",
+                clouddrive        : "/clouddrive",
+                cloudphotos       : "/gp/photos",
+                primephotos       : "/photos",
+                manageStorage     : "/gp/photos/storage/",
+                billingHistory    : "/gp/photos/storage/pISettings",
+                sharedHistory     : "/clouddrive/shared",
+                apps              : "/photos/apps",
+
+                help              : "/clouddrive/help",
+                recognitionHelp   : "/help/primephotos/findpeopleandthings",
+                thirdPartyAppsHelp: "/gp/help/customer/display.html?nodeId=201194060",
+                manageThirdParty  : "/ap/adam",
+                notificationHelp  : "/help/primephotos/notifications",
+                authPortal        : AppConfig.authportalUrl,
+                aztecAccessUrl    : AppConfig.aztecAccessUrl,
+
+                all               : "/all",
+                folder            : "/folder",
+                search            : "/search",
+                shared            : "/shared",
+                share             : "/share",
+                trash             : "/trash",
+                recent            : "/recent",
+
+                settings          : "/gp/photos/storage/pISettings",
+                signout           : "/clouddrive/signout?",
+                printsHistory     : "/clouddrive/prints?mgh=1&site=cd&category=orderHistory",
+
+                appDownloadiOS    : AppConfig.externalLinks.appDownloadiOS,
+                appDownloadAndroid: AppConfig.externalLinks.appDownloadAndroid,
+                windowsAppLink    : AppConfig.externalLinks.windowsAppLink,
+                macAppLink        : AppConfig.externalLinks.macAppLink,
+
+                allAppsPage       : AppConfig.externalLinks.allAppsPage,
+                desktopLink       : AppConfig.externalLinks.allAppsPage,
+
+                chromeLink        : AppConfig.externalLinks.chromeLink,
+
+                reportFormLink    : AppConfig.externalLinks.reportFormLink,
+                feedbackForm      : AppConfig.externalLinks.sendFeedbackForm,
+
+                privacyPolicy: "/gp/help/customer/display.html?nodeId=468496",
+                termsOfUse: "/gp/help/customer/display.html?nodeId=201376540",
+
+                primeSignupLink   : AppConfig.externalLinks.primeSignupLink,
+
+                driveServiceEndpoint : AppConfig.endpoints.cloudDriveServiceEndpoint,
+                oneLensServiceEndpoint : AppConfig.endpoints.oneLensServiceEndpoint,
+                proxyServiceEndpoint : AppConfig.endpoints.cloudDriveProxyEndpoint,
+                photosServiceEndpoint: AppConfig.endpoints.photosServiceEndpoint
+            }
+        }
+    };
+
+</script>
+<script crossorigin='anonymous' src='https://duretogglc1iq.cloudfront.net/main-cf0216258d3c21868823.js'></script>
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/static/adobe/20ae920c5cf5ab3eb2c16332345f1da6a14a4148/satelliteLib-abf5e9c8c10a4cda33dbd17fde4e8be6a6551048.js"></script>
+<script>
+    if(typeof _satellite !== "undefined" && _satellite.pageBottom) {
+        var digitalData = digitalData || {};
+        digitalData.user = digitalData.user || {};
+
+        digitalData.page = {
+            pageInfo:{
+                pageName:"Amazon Drive ShareLanding",
+                marketplaceId: "ATVPDKIKX0DER",
+                countryLanguage: "en_US"
+            },
+            category:{
+                pageType:"LotusWeb",
+                subPageType:"ShareLanding",
+                primaryCategory: "CloudDrive"
+            }
+        };
+
+        digitalData.user.profile = {
+            profileInfo:{
+                activeSub       : Boolean(false),
+                adriveSub       : "",
+                cdsSub          : "",
+                trialElig       : Boolean(false),
+                coralFlag       : Boolean(false),
+                accountNearQuota: Boolean(false),
+                accountOverQuota: Boolean(false),
+                directedId      : ""
+            }
+        };
+
+    }
+</script>
+    </body>
+
+</html>
